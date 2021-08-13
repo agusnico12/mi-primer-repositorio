@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="sty.css" />
+  </head>
+  <body>
+    <div class="grid-container1">
+      <header>
+        <div class="item item1">
+          <h3><a class="title" href="index.html">Deviscard</a></h3>
+          <nav>
+            <a class="links" href="Tarjetas.html">Tarjetas</a>
+            <a class="links" href="Promociones.html">Promociones</a>
+            <a class="links" href="Seguros.html">Seguros</a>
+            <a class="links" href="Contactanos.html">Contacto</a>
+          </nav>
+        </div>
+        <div class="container container1">
+          <h3 class="subtitle">¿Necesitas ayuda? Contactate con nosotros</h3>
+        </div>
+      </header>
+      <div class="container container2">
+        <form class="form">
+          <fieldset>
+            <legend>Formulario de contacto</legend>
+            <div class="name">
+              <label for="nombre">Nombre</label>
+              <input type="text" name="nombre" />
+            </div>
+            <div class="surname">
+              <label for="apellido">Apellido</label>
+              <input type="text" id="apellido" name="apellido" />
+            </div>
+            <div class="email">
+              <label for="email">Correo electronico</label>
+              <input type="email" id="email" name="email" />
+            </div>
+            <div class="civil">
+              <label for="estado-civil">Estado civil</label>
+              <select name="estado-civil" id="estado-civil">
+                <option value="soltero">Soltero/a</option>
+                <option value="casado">Casado/a</option>
+                <option value="divorciado">Divorciado/a</option>
+                <option value="viudo">Viudo/A</option>
+              </select>
+            </div>
+            <div class="subscription">
+              <label for="deviscardSubscription"
+                >¿Desea recibir informacion sobre Deviscard?</label
+              >
+              <input
+                type="checkbox"
+                id="deviscardSubscription"
+                name="deviscard"
+                value="yes"
+              />
+            </div>
+            <div class="comments">
+              <label for="comentarios">Comentarios</label>
+              <input type="text" name="comentarios" name="comentarios" />
+            </div>
+            <input class="buttom" type="reset" value="Limpiar formulario" />
+            <input class="buttom" type="submit" value="Enviar" />
+          </fieldset>
+        </form>
+      </div>
+      <div class="container container3">
+        <footer class="footer">
+          Todos los derechos reservados. Los usuarios estan obligados a cumplir
+          con los Terminos y Condiciones
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
