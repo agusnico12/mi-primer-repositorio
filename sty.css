@@ -7,11 +7,10 @@
   justify-content: center;
 }
 body {
-  background-color: #f3f3f3;
+  background-color: #1b2543;
 }
 
 .links {
-  display: flex;
   text-decoration: none;
   color: #f3f3f3;
   list-style: none;
@@ -28,12 +27,6 @@ body {
 }
 
 .item1 {
-  grid-area: header;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-right: 20%;
-  padding-left: 5%;
   background-color: #1b2543;
 }
 nav {
@@ -91,39 +84,7 @@ nav {
 }
 
 /*FORM*/
-.form {
-  background-color: #d6d9ea;
-  font-size: 1.2em;
-  padding: 10px;
-  margin: 10px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.name {
-  padding: 10px;
-}
-.surname {
-  padding: 10px;
-}
-.email {
-  padding: 10px;
-}
-.civil {
-  padding: 10px;
-  font-size: 20px;
-}
-.civil-option {
-  font-size: ;
-}
-.subscription {
-  padding: 10px;
-}
-.comments {
-  padding: 10px;
-}
-.buttom {
-  padding: 10px;
-  font-size: 15px;
-}
+
 /*GRIDFORM*/
 
 .footer {
@@ -131,7 +92,6 @@ nav {
   justify-content: center;
   padding: 10px;
   background-color: #3f515d;
-  margin-top: 300px;
   height: 100px;
 }
 
