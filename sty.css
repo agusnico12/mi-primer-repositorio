@@ -72,6 +72,10 @@ nav {
   padding-top: 30px;
   margin-left: 5%;
   overflow: hidden;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .text {
   color: black;
