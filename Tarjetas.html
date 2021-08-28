@@ -32,76 +32,65 @@
       integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="sty.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="w-100">
-    <header>
-      <div class="item1 navbar">
-        <h4>
-          <a
-            class="title col-sm-4 col-md-3 d-flex justify-content-between"
-            href="index.html"
-            >Deviscard</a
-          >
-        </h4>
-        <nav class="col-sm-8 col-md-9 justify-content-evenly d-flex">
-          <a class="links" href="Tarjetas.html">Tarjetas</a>
-          <a class="links" href="Promociones.html">Promociones</a>
-          <a class="links" href="Seguros.html">Seguros</a>
-          <a class="links" href="Contactanos.html">Contacto</a>
-        </nav>
+    <header class="header">
+      <div class="navbar">
+          <h4><a class="header__logo title col-md-4" href="index.html">Deviscard</a></h4>
+          <nav class="header__links d-none d-md-flex col-sm-6 col-md-6 d-flex justify-content-evenly">
+            <a class="header__link" href="Tarjetas.html">Tarjetas</a>
+            <a class="header__link" href="Promociones.html">Promociones</a>
+            <a class="header__link" href="Seguros.html">Seguros</a>
+            <a class="header__link" href="Contactanos.html">Contacto</a>
+          </nav>
+        </div>
       </div>
     </header>
     <main>
       <section>
         <div class="row">
-          <div class="col-sm-12 col-md-6">
-            <h2 class="tarjeta-ideal">
+          <div class="tarjeta col-sm-12 col-md-6">
+            <h2 class="tarjeta__titulo">
               En
               <strong>Deviscard</strong>
               tenemos
               <strong>una tarjeta ideal para vos.</strong>
             </h2>
-            <div class="parrafo">
+            <div class="tarjeta__parrafo">
               <p>Si todavía no sos cliente, completá tus datos</p>
               <p>para conocer qué tarjeta se adapta mejor a</p>
               <p>vos. ¡Obtenela gratis y 100% online!</p>
             </div>
-            <div class="border-button">
-              <button type="button" class="btn btn-primary btn-lg button">
+            <div class="tarjeta__boton">
+              <button type="button" class="btn btn-primary btn-lg">
                 Quiero mi tarjeta
               </button>
             </div>
           </div>
           <div class="col-sm-12 col-md-6">
-            <img
-              src="https://media.istockphoto.com/photos/connect-and-relax-at-home-picture-id1206716363?k=20&m=1206716363&s=612x612&w=0&h=pRV4HSnHYaiAjk5LfLidFnIMJ7N17byOHD6dEqbJ8IE="
-              class="img-fluid img-card"
-              alt=""
-            />
+            <img src="https://media.istockphoto.com/photos/connect-and-relax-at-home-picture-id1206716363?k=20&m=1206716363&s=612x612&w=0&h=pRV4HSnHYaiAjk5LfLidFnIMJ7N17byOHD6dEqbJ8IE=" class="imagen" alt="">
           </div>
         </div>
       </section>
       <section>
-        <div class="title-cards">
+        <div class="catalogo__titulo">
           <h2><strong>Conoce todas nuestras tarjetas</strong></h2>
           <h4>Consulta sin compromiso la que mejor se adapte a vos</h4>
         </div>
       </section>
       <section>
-        <div class="card-group card-box">
-          <div class="card p-10">
+        <div class="card-group">
+          <div class="card catalogo__caja">
             <img
-              src="https://cdn.pixabay.com/photo/2010/12/13/09/51/account-1778__340.jpg"
+              src="https://image.flaticon.com/icons/png/512/1242/1242267.png"
               class="card-img-top"
-              alt="..."
+              alt="image-credit-card"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Deviscard Benk</h5>
               <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer.
+                Es una tarjeta de credito de la cual podes aprovechar beneficios exclusivos.
               </p>
               <button type="button" class="btn btn-primary btn-lg">
                 Más información
@@ -110,15 +99,14 @@
           </div>
           <div class="card">
             <img
-              src="https://cdn.pixabay.com/photo/2010/12/13/09/51/account-1778__340.jpg"
+              src="https://image.flaticon.com/icons/png/512/1244/1244171.png"
               class="card-img-top"
-              alt="..."
+              alt="image-credit-card"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Deviscard Fink</h5>
               <p class="card-text">
-                This card has supporting text below as a natural lead-in to
-                additional content.
+                Esta tarjeta cuenta con incontables beneficios. Accedé a Deviscard y disfruta de ellos.
               </p>
               <button type="button" class="btn btn-primary btn-lg">
                 Más información
@@ -127,16 +115,14 @@
           </div>
           <div class="card">
             <img
-              src="https://cdn.pixabay.com/photo/2010/12/13/09/51/account-1778__340.jpg"
+              src="https://image.flaticon.com/icons/png/512/1249/1249771.png"
               class="card-img-top"
-              alt="..."
+              alt="image-credit-card"
             />
             <div class="card-body">
-              <h5 class="card-title">Card title</h5>
+              <h5 class="card-title">Deviscard Gold</h5>
               <p class="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This card has even longer content
-                than the first to show that equal height action.
+                Desde beneficios exclusivos hasta asistencia en viajes y servicios. La tarjeta mas completa del mercado.
               </p>
               <button type="button" class="btn btn-primary btn-lg">
                 Más información
