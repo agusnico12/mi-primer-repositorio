@@ -1,0 +1,22 @@
+.header {
+  background-color: #1b2543;
+  .header__logo {
+    font-size: 3rem;
+    text-decoration: none;
+    color: $blanco;
+    padding: 3rem;
+  }
+  .header__links {
+    color: $blanco;
+    list-style: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif "Gill Sans", "Gill Sans MT", Calibri,
+      "Trebuchet MS", Arial, Helvetica, sans-serif;
+  }
+  .header__link {
+    text-decoration: none;
+    list-style: none;
+    color: $blanco;
+  }
+}
