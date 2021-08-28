@@ -9,45 +9,92 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="sty.css" />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <div>
-      <header>
-        <div class=" item1 navbar">
-          <h4><a class="title col-sm-4 col-md-3 d-flex justify-content-between" href="index.html">Deviscard</a></h4>
-          <nav class="col-sm-8 col-md-9 justify-content-evenly d-flex">
-            <a class="links" href="Tarjetas.html">Tarjetas</a>
-            <a class="links" href="Promociones.html">Promociones</a>
-            <a class="links" href="Seguros.html">Seguros</a>
-            <a class="links" href="Contactanos.html">Contacto</a>
-          </nav>
-        </div>
+  <body class="w-100">
+      <header class="header">
+        <div class="navbar">
+            <h4><a class="header__logo title col-md-4" href="index.html">Deviscard</a></h4>
+            <nav class="header__links d-none d-md-flex col-sm-6 col-md-6 d-flex justify-content-evenly">
+              <a class="header__link" href="Tarjetas.html">Tarjetas</a>
+              <a class="header__link" href="Promociones.html">Promociones</a>
+              <a class="header__link" href="Seguros.html">Seguros</a>
+              <a class="header__link" href="Contactanos.html">Contacto</a>
+            </nav>
+          </div>
       </header>
-        <div class="contenedor">
-          <div class="box">
-            <h3>Protege tu casa</h3>
-            Seguro de vivienda
-          </div>
-          <div class="box">
-            <h3>Protege tu auto</h3>
-            Seguro de auto
-          </div>
-          <div class="box">
-            <h3>Protege tu moto</h3>
-            Seguro de moto
-          </div>
-          <div class="box">
-            <h3>Seguro de vida</h3>
-          </div>
-          <div class="box">
-            <H3>Seguro de proteccion movil</H3>
-          </div>
-          <div class="box">
-            <H3>Seguro de gastos protegidos</H3>
-          </div>
-        </div>
-        <div class="footer align-items-end">Todos los derechos reservados. Los usuarios estan obligados a cumplir
-          con los Terminos y Condiciones</div>
-  </body>
-</html>
+      <main>
+<section>
+  <div class="seguros">
+    <div class="seguros__back">
+      <h2 class="seguros__subtitulo">Asegurate con <strong>Deviscard</strong></h2>
+    </div>
+  </div>
+</section>
+<section>
+  <div class="row section1">
+    <div class="card section1__boxes" style="width: 15rem;">
+      <img src="https://image.flaticon.com/icons/png/512/1255/1255480.png" class="card-img-top" alt="imagen-auto">
+      <div class="card-body">
+        <h3>Seguro de casa.
+        </h3>
+        <p class="card-text">Informate al respecto</p>
+        <div>
+          <button type="button" class="btn btn-primary btn-lg">Más información
+          </button>
+      </div>
+      </div>
+    </div>
+    <div class="card section1__boxes" style="width: 15rem;">
+    <img src="https://image.flaticon.com/icons/png/512/1254/1254791.png" class="card-img-top" alt="imagen-casa">
+    <div class="card-body">
+      <h3>Seguro de auto.</h3>
+      <p class="card-text">Informate al respecto</p>
+      <div>
+        <button type="button" class="btn btn-primary btn-lg">Más información
+        </button>
+    </div>
+    </div>
+  </div>
+  </div>
+  <div class="row section1">
+    <div class="card section1__boxes" style="width: 15rem;">
+      <img src="https://image.flaticon.com/icons/png/512/1227/1227880.png" class="card-img-top" alt="imagen-moto">
+      <div class="card-body">
+        <h3>Seguro de moto.</h3>
+        <p class="card-text">Informate al respecto</p>
+        <div>
+          <button type="button" class="btn btn-primary btn-lg">Más información
+          </button>
+      </div>
+      </div>
+    </div>
+    <div class="card section1__boxes" style="width: 15rem;">
+      <img src="https://image.flaticon.com/icons/png/512/1255/1255652.png" class="card-img-top" alt="imagen-celular">
+      <div class="card-body">
+        <h3>Seguro de celular.</h3>
+        <p class="card-text">Informate al respecto</p>
+        <div>
+          <button type="button" class="btn btn-primary btn-lg">Más información
+          </button>
+      </div>
+      </div>
+    </div>
+    <div class="card section1__boxes" style="width: 15rem;">
+      <img src="https://image.flaticon.com/icons/png/512/1240/1240716.png" class="card-img-top" alt="imagen-seguro-de-vida">
+      <div class="card-body">
+        <h3>Seguro de vida.</h3>
+        <p class="card-text">Informate al respecto</p>
+        <div>
+          <button type="button" class="btn btn-primary btn-lg">Más información
+          </button>
+      </div>
+    </div>
+  </div>
+</section>
+      </main>
+        <footer class="footer align-items-end">Todos los derechos reservados. Los usuarios estan obligados a cumplir
+          con los Terminos y Condiciones</footer>
+        </body>
+        </html>
+        
