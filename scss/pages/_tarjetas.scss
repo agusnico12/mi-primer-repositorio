@@ -1,0 +1,33 @@
+.tarjeta {
+  padding-left: 100px;
+  padding-top: 120px;
+  padding-bottom: 50px;
+
+  .tarjeta__titulo {
+    font-family: "Roboto", sans-serif;
+  }
+  .tarjeta__parrafo {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5em;
+    padding-top: 20px;
+  }
+  .tarjeta__boton {
+    margin-top: 25px;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: 30px;
+  }
+}
+
+.imagen {
+  width: 850px;
+  border-radius: 10px;
+}
+
+.catalogo__titulo {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+  .catalogo__caja {
+    padding: 30px;
+  }
+}
