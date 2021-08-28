@@ -1,1 +1,173 @@
-/* No CSS */
+.content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 30px;
+}
+
+.tarjeta {
+  padding-left: 100px;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+.tarjeta .tarjeta__titulo {
+  font-family: "Roboto", sans-serif;
+}
+
+.tarjeta .tarjeta__parrafo {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5em;
+  padding-top: 20px;
+}
+
+.tarjeta .tarjeta__boton {
+  margin-top: 25px;
+  font-family: "Roboto", sans-serif;
+  padding-bottom: 30px;
+}
+
+.imagen {
+  width: 850px;
+  border-radius: 10px;
+}
+
+.catalogo__titulo {
+  padding-top: 80px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.catalogo__titulo .catalogo__caja {
+  padding: 30px;
+}
+
+body {
+  background-color: #d6d9ea;
+}
+
+.seguros .seguros__back {
+  background-image: url(https://developer.huawei.com/system/modules/org.opencms.portal.template.core/resources/images/support/banner-pc.jpg);
+  height: 360px;
+}
+
+.seguros .seguros__subtitulo {
+  color: #eee;
+  margin-left: 2em;
+  padding-top: 1em;
+}
+
+.section1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  padding-top: 2em;
+}
+
+.section1 .section1__boxes {
+  padding: 15px;
+}
+
+.imagen {
+  width: 100%;
+}
+
+.imagen .imagen__background {
+  background-image: url(https://kinsta.com/es/wp-content/uploads/sites/8/2017/12/estrategias-ecommerce-wordpress.png);
+  height: 710px;
+  padding-bottom: 100px;
+}
+
+.imagen .imagen__subtitulo {
+  color: #eee;
+  margin-left: 2em;
+  padding-top: 1em;
+}
+
+.caja {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 100px;
+}
+
+.caja .caja__individual {
+  margin: 10px;
+}
+
+.contacto .contacto__titulo {
+  font-size: 3em;
+  text-align: center;
+  padding-bottom: 0.1em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 1em;
+}
+
+.contacto .contacto__subtitulo {
+  font-size: 2.3em;
+  text-align: center;
+  padding-bottom: 1em;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.formulario {
+  padding-bottom: 300px;
+}
+
+.header {
+  background-color: #1b2543;
+}
+
+.header .header__logo {
+  font-size: 3rem;
+  text-decoration: none;
+  color: #eee;
+  padding: 3rem;
+}
+
+.header .header__links {
+  color: #eee;
+  list-style: none;
+  padding: 10px;
+  font-size: 1.2rem;
+  font-family: "Roboto", sans-serif "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+.header .header__link {
+  text-decoration: none;
+  list-style: none;
+  color: #eee;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #3f515d;
+  height: 100px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  color: #eee;
+}
