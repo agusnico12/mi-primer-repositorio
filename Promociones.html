@@ -9,53 +9,91 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="sty.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="w-100">
   <div>
-    <header>
-      <div class=" item1 navbar">
-        <h4><a class="title col-sm-4 col-md-3 d-flex justify-content-between" href="index.html">Deviscard</a></h4>
-        <nav class="col-sm-8 col-md-9 justify-content-evenly d-flex">
-          <a class="links" href="Tarjetas.html">Tarjetas</a>
-          <a class="links" href="Promociones.html">Promociones</a>
-          <a class="links" href="Seguros.html">Seguros</a>
-          <a class="links" href="Contactanos.html">Contacto</a>
-        </nav>
+    <header class="header">
+      <div class="navbar">
+          <h4><a class="header__logo title col-md-4" href="index.html">Deviscard</a></h4>
+          <nav class="header__links d-none d-md-flex col-sm-6 col-md-6 d-flex justify-content-evenly">
+            <a class="header__link" href="Tarjetas.html">Tarjetas</a>
+            <a class="header__link" href="Promociones.html">Promociones</a>
+            <a class="header__link" href="Seguros.html">Seguros</a>
+            <a class="header__link" href="Contactanos.html">Contacto</a>
+          </nav>
+        </div>
       </div>
     </header>
-    <div class="background-image">
-      <h3 class="subtitle">Disfruta de los beneficios exclusivos que te brinda Deviscard</h3>
-asdasdas
-    </div>
     <main>
-      <div class="contenedor">
-        <div class="box">
-          <h3>Tiendas de ropa</h3>
-          30% de ahorro y cuotas sin interés
+      <section class="imagen">
+        <div class="imagen__background">
+          <h2 class="imagen__subtitulo">Disfruta de los beneficios exclusivos que te brinda <strong>Deviscard</strong> </h2>
         </div>
-        <div class="box">
-          <h3>Supermercados</h3>
-          20% de ahorro los martes en un pago
+      </section>
+      <section>
+        <div class="row caja">
+          <div class="card col-md-3 col-sm-6 col-xs-6 caja__individual" style="width: 15rem;">
+            <img src="data:image/png;base64,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" class="card-img-top" alt="pedidos-image">
+            <div class="card-body">
+              <p class="card-text">Descuento de $300 en tu primer pedido.</p>
+              <a href="#" class="btn btn-primary">Más información</a>
+            </div>
+          </div>
+          <div class="card col-md-3 col-sm-6 col-xs-6 caja__individual" style="width: 15rem;">
+          <img src="https://w7.pngwing.com/pngs/140/310/png-transparent-mcdonalds-logo-illustration-hamburger-take-out-mcdonald-s-big-mac-drive-through-mcdonalds-miscellaneous-text-fast-food-restaurant.png" class="card-img-top" alt="mc-image">
+          <div class="card-body">
+            <p class="card-text">30% de descuento en todos los combos los días martes.</p>
+            <a href="#" class="btn btn-primary">Más información</a>
+          </div>
         </div>
-        <div class="box">
-          <H3>Tiendas de deportes</H3>
-          15% de ahorro en un pago
+        <div class="card col-md-3 col-sm-6 col-xs-6 caja__individual" style="width: 15rem;">
+          <img src="data:image/png;base64,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" class="card-img-top" alt="dexter-image">
+          <div class="card-body">
+            <p class="card-text">15% de descuento en productos seleccionados.</p>
+            <a href="#" class="btn btn-primary">Más información</a>
+          </div>
         </div>
-        <div class="box">
-          <h3>McDonald´s</h3>
-          20% de ahorro
-        </div>
-        <div class="box">
-          <h3>Pedidos ya</h3>
-          30% de ahorro
-        </div>
-        <div class="box">
-          <h3>Gastronomia</h3>
-          25% de ahorro y beneficios exclusivos
+        <div class="card col-md-3 col-sm-6 col-xs-6 caja__individual" style="width: 15rem;">
+          <img src="https://e7.pngegg.com/pngimages/733/880/png-clipart-nike-logo-swoosh-brand-nike-text-photography.png" class="card-img-top" alt="nike-img">
+          <div class="card-body">
+            <p class="card-text">10% de descuento en calzado los días lunes.</p>
+            <a href="#" class="btn btn-primary">Más información</a>
+          </div>
         </div>
       </div>
-    </main>
+      <div class="row caja">
+        <div class="card col-md-3 col-sm-6 col-xs-6 caja__individual" style="width: 15rem;">
+          <img src="https://w7.pngwing.com/pngs/261/578/png-transparent-adidas-logo-adidas-originals-adidas-stan-smith-adidas-superstar-adidas-text-logo-sneakers.png" class="card-img-top" alt="adidas-img">
+          <div class="card-body">
+            <p class="card-text">10% de descuento en indumentaria los días martes.</p>
+            <a href="#" class="btn btn-primary">Más información</a>
+          </div>
+        </div>
+        <div class="card col-md-3 col-sm-6 col-xs-6 caja__individual" style="width: 15rem;">
+        <img src="https://image.flaticon.com/icons/png/512/49/49526.png" class="card-img-top" alt="tuenti-image">
+        <div class="card-body">
+          <p class="card-text">Con Deviscard te ahorrás un combo Power.</p>
+          <a href="#" class="btn btn-primary">Más información</a>
+        </div>
+      </div>
+      <div class="card col-md-3 col-sm-6 col-xs-6 caja__individual" style="width: 15rem;">
+        <img src="data:image/png;base64,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" class="card-img-top" alt="directv-image">
+        <div class="card-body">
+          <p class="card-text">Beneficios exclusivos en la app de Directv.</p>
+          <a href="#" class="btn btn-primary">Más información</a>
+        </div>
+      </div>
+      <div class="card col-md-3 col-sm-6 col-xs-6 caja__individual" style="width: 15rem;">
+        <img src="https://grupoguazzaronigreco.com/wp-content/uploads/2019/03/full.png" class="card-img-top" alt="full-image">
+        <div class="card-body"
+          <p class="card-text">En Full podes encontrar cientos de descuentos gracias a Deviscard.</p>
+          <a href="#" class="btn btn-primary">Más información</a>
+        </div>
+      </div>
+    </div
+      </section>
+      </main>
       <footer class="footer">Todos los derechos reservados. Los usuarios estan obligados a cumplir
         con los Terminos y Condiciones</footer>
       </body>
