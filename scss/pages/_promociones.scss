@@ -1,0 +1,22 @@
+.imagen {
+  width: 100%;
+  .imagen__background {
+    background-image: url(https://kinsta.com/es/wp-content/uploads/sites/8/2017/12/estrategias-ecommerce-wordpress.png);
+    height: 710px;
+    padding-bottom: 100px;
+  }
+  .imagen__subtitulo {
+    color: $blanco;
+    margin-left: 2em;
+    padding-top: 1em;
+  }
+}
+
+.caja {
+  display: flex;
+  justify-content: space-around;
+  padding: 100px;
+  .caja__individual {
+    margin: 10px;
+  }
+}
